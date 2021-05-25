@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+body {
+  background-color: #1a1a1a;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.box {
+  background-color: #337923;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+   
+  position: relative;
+}
+
+.box div{
+    position: absolute;
+    top: 5px;
+    left: 10%;
+    
+}
+.left {
+  float: left;
+  margin: 0px 0px 0px 1px;
+}
+
+.right {
+  float: right;
+  margin: 15px;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.page-nav {
+    
+  margin: 50px 0px 0px 0px;
+  padding: 0px 0px 0px 100px;
+  
+}
+
+.page-selector {
+    position: relative;
+  width: 150px;
+  height: 40px;
+  margin: 10px 0px 10px 0px;
+  display: inline-block;
+  
+  
+}
+
+.page-selector:hover div{
+    color: #fff;
+    animation: pulse; 
+  animation-duration: 2s;
+    
+   
+}
+
+.page-selector div{
+    position: absolute;
+    color: rgb(61, 61, 61);
+    font-size: 40px;
+   cursor: pointer;
+   z-index: 1;
+   
+}
+
+
+.main-container {
+   
+  padding-left: 100px;
+}
+
+.box-prop {
+  display: inline-block;
+}
+
+.box-prop:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+.box-long {
+  width: 200px;
+  height: 590px;
+  background-color: #337923;
+   
+  margin: 0px 0px 50px 100px;
+}
+
+.box-image {
+  height: 380px;
+  width: 1025px;
+
+   
+  margin: 50px 0px 0px 325px;
+
+   
+}
+
+.box-image:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+.box-small {
+  height: 180px;
+  width: 180px;
+  background-color: #337923;
+   
+  margin: 25px 0px 50px 25px;
+   
+}
+
+.left-box {
+  float: left;
+}
+
+.right-box {
+  float: right;
+  vertical-align: top;
+}
+
+.side-box {
+  vertical-align: top;
+
+  height: 590px;
+  width: 180px;
+  margin: -385px 225px 50px 25px;
+}
+
+.box-small-right {
+   
+  width: 180px;
+  height: 180px;
+  background-color: #337923;
+}
+
+.side-box :nth-child(2) {
+  margin: 25px 0px 0px 0px;
+}
+.side-box :nth-child(3) {
+  margin: 25px 0px 0px 0px;
+}
+
+.icon-container {
+  position: relative;
+   
+}
+
+
+.color-off{
+    background-color: #1a1a1a;
+    margin-right: 60px;
+}
+.icon-container div {
+  position: absolute;
+  top: 30px;
+  left: 25%;
+
+  width: 100px;
+  height: 100px;
+}
+
+.text-profile{
+    color: white;
+    font-size: 25px;
+    padding: 20px 0px 0px 20px;
+}
